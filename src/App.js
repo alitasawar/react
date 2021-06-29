@@ -25,7 +25,7 @@ function App() {
     <Router>
     <div className="App">
      <Switch>
-        <Route exact path='/cata'>
+        <Route exact path='/'>
           <Catagories data={All_Catagory}></Catagories>
         </Route>
         <Route path='/post/:id' component={Posts} /> 
